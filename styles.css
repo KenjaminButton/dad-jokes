@@ -1,0 +1,81 @@
+/* This is where we make our website look pretty! */
+
+/* Make the page take up the full screen and center everything */
+body {
+    /* Use a nice, easy-to-read font */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Put everything in the middle of the screen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Make sure it fills the whole screen */
+    min-height: 100vh;
+    /* Remove the default space around the edges */
+    margin: 0;
+    /* Make the background a light gray color */
+    background-color: #f0f2f5;
+}
+
+/* This is the white box that holds our joke */
+.container {
+    /* Make the box white */
+    background-color: white;
+    /* Add some space inside the box */
+    padding: 2rem;
+    /* Make the corners round */
+    border-radius: 10px;
+    /* Add a subtle shadow to make it look floating */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    /* Center the text inside */
+    text-align: center;
+    /* Make sure the box isn't too wide */
+    max-width: 600px;
+    width: 90%;
+}
+
+/* This is where the joke text appears */
+.joke {
+    /* Make the joke text bigger */
+    font-size: 1.5rem;
+    /* Add space above and below the joke */
+    margin: 2rem 0;
+    /* Make sure there's enough space between lines */
+    line-height: 1.4;
+    /* Make the text dark gray */
+    color: #333;
+    /* Make sure there's always space for the joke */
+    min-height: 4rem;
+}
+
+/* Style the button that gets new jokes */
+button {
+    /* Make the button green */
+    background-color: #4CAF50;
+    /* Make the text white */
+    color: white;
+    /* Remove the default button border */
+    border: none;
+    /* Add space inside the button */
+    padding: 1rem 2rem;
+    /* Make the button text bigger */
+    font-size: 1.1rem;
+    /* Make the button corners round */
+    border-radius: 5px;
+    /* Change the mouse cursor to a pointing hand */
+    cursor: pointer;
+    /* Make the color change smooth when hovering */
+    transition: background-color 0.3s;
+}
+
+/* Make the button darker when hovering over it */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Make the button look different when it's disabled */
+button:disabled {
+    /* Make it gray when you can't click it */
+    background-color: #cccccc;
+    /* Show a not-allowed cursor */
+    cursor: not-allowed;
+}
