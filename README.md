@@ -25,6 +25,12 @@ A browser-based dad jokes generator that fetches and displays jokes from the ica
 
 A modern, web-based dad jokes generator that fetches jokes from the icanhazdadjoke API. This project features a clean, responsive design with a simple interface that makes getting your daily dose of dad jokes a breeze.
 
+### Screenshot
+
+<div align="center">
+  <img src="images/1.png" alt="Dad Jokes Generator Interface" width="600"/>
+</div>
+
 ### Project Structure
 ```
 dad-jokes/
