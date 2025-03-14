@@ -8,6 +8,11 @@ A browser-based dad jokes generator that fetches and displays jokes from the ica
   <h3>A Modern Implementation of a Dad Jokes Web App</h3>
 
   <p align="center">
+    <h2>
+      <a href="https://dad-jokes-navy.vercel.app/" style="font-size: 24px;">
+        😄 TRY LIVE DEMO 😄
+      </a>
+    </h2>
     <br />
     A clean and simple implementation of a dad jokes generator using HTML, CSS, and JavaScript.
     Features a modern UI design and seamless API integration.
